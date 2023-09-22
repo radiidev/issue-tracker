@@ -1,0 +1,8 @@
+---
+steps:
+  tests:
+    image: node:lts
+    pull: true
+    commands:
+      - npm install
+      - npm run test
